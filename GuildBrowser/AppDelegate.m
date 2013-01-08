@@ -54,6 +54,7 @@
         UITextAttributeFont : [UIFont fontWithName:@"Georgia" size:24.0]
     };
     
+    NSLog(@"fontAttribs = %@", fontAttribs);
     [[UINavigationBar appearance] setTitleTextAttributes: fontAttribs];
 }
 
